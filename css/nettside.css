@@ -1,0 +1,111 @@
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    height: 900px;
+    border: solid;
+}
+
+header {
+    display: block;
+    width: 100%;
+    height: 220px;
+    background-color: gray;
+    border-bottom: solid;
+}
+#nav2{
+   visibility:hidden;
+}
+.social{
+  display: flex;
+    position: relative;
+    height: 48px;
+    width: 200px;
+    top: 165px;
+    float: right;
+    padding-right: 1em;
+}
+
+.socialplus{
+  display: none;
+}
+
+i {
+    margin-right: 20px;
+}
+
+ul li {
+    height: 50px;
+    width: 150px;
+    background-color: gray;
+    border: 1px solid;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
+#sak{
+  background-color:transparent;
+  border: none;
+}
+
+ul{
+    width: 900px;
+}
+
+.line {
+    border-left: 1px solid #000;
+    height: 580px;
+    float: right;
+    margin-right: 30px;
+}
+
+aside {
+    width: 300px;
+    height: 580px;
+    float: right;
+}
+
+form {
+    width: 350px;
+}
+
+.button {
+    position: relative;
+    height: 50px;
+    width:80px;
+    left: -8px;
+    border: 2px solid #5e6b77;
+    background-color: #5e6b77;
+    color: #fafafa;
+}
+
+.search {
+  height:50px;
+    background: rgba(50, 50, 50, 0.2);
+    border: 0px solid #dbdbdb;
+}
+@media screen and (max-width: 969px){
+  #main{
+    width: 100%;
+
+  }
+  .social{
+    padding-right: 3em;
+  }
+  header{
+    width: 100%;
+  }
+  .social {
+    width: 20%;
+  }
+  ul li {
+      width: 15%;
+    }
+  ul{
+    width: 90%;
+  }
+  aside {
+      width: 30%;
+    }
+
+}
