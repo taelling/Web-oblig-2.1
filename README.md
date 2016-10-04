@@ -4,4 +4,7 @@
 hallo
 =======
 Hei, på deg
->>>>>>> origin/master
+
+
+
+hei på deg victor asdas
