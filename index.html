@@ -9,8 +9,28 @@
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/nettside.css" media="all" title="no title">
      <!--<mata name="viewport" content="width=device-width, initial-scale=1.0"> -->
+     <script type="text/javascript">
 
-    
+         window.onload = knapp;
+         var tall = 0;
+         function knapp() {
+           document.getElementById('link').onclick = menu;
+
+         }
+             function menu() {
+               if( tall == 0 )
+               {
+                 document.getElementById("drop").style.display = "block";
+                 tall = 1
+               }
+               else{
+                 document.getElementById("drop").style.display = "none";
+                 tall = 0
+
+               }
+             }
+         </script>
+
 </head>
 
 <body>
