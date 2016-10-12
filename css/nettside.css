@@ -14,7 +14,7 @@ header {
     border-bottom: solid;
 }
 #nav2{
-   visibility:hidden;
+   display:none;
 }
 .social{
   display: flex;
@@ -34,7 +34,7 @@ i {
     margin-right: 20px;
 }
 
-ul li {
+ul li{
     height: 50px;
     width: 150px;
     background-color: gray;
@@ -61,8 +61,11 @@ ul{
 
 aside {
     width: 300px;
-    height: 580px;
+    height: 590px;
     float: right;
+
+    margin-top: 0px;
+    border-left: solid;
 }
 
 form {
@@ -83,6 +86,17 @@ form {
   height:50px;
     background: rgba(50, 50, 50, 0.2);
     border: 0px solid #dbdbdb;
+}
+
+
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: #585858;
+
 }
 @media screen and (max-width: 969px){
   #main{
@@ -132,7 +146,7 @@ form {
     width: 95%;
   }
   #nav2, #nav2 li{
-     visibility:visible;
+     display:block;
     text-align:left;
     font-size: 1.2em;
   }
