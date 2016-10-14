@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hjem</title>
+
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nettside.css" media="all" title="no title">
+     <!--<mata name="viewport" content="width=device-width, initial-scale=1.0"> -->
+     <script type="text/javascript" >
+
+         window.onload = knapp;
+         var tall = 0;
+         function knapp() {
+           document.getElementById('link').onclick = menu;
+
+         }
+             function menu() {
+               if( tall == 0 )
+               {
+                 document.getElementById("drop").style.display = "block";
+                 tall = 1
+               }
+               else{
+                 document.getElementById("drop").style.display = "none";
+                 tall = 0
+
+               }
+             }
+         </script>
+
+</head>
+
+<body>
+    <main id="main">
+        <header>
+            <div class="social">
+                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="socialplus">
+              <img src="a.png" alt="sosial" />
+          </div>
+        </header>
+        <nav>
+            <ul id="nav1">
+              <li><a href="index.html">Hjem</a></li>
+              <li><a href="karriere.html">Karriere</a></li>
+              <li><a href="Tidligereliv.html">Tidligere liv</a></li>
+              <li><a href="Slutten.html">Slutten</a></li>
+
+                <li id="sak">
+                <form>
+                    <input type="text" placeholder="Search..." required class="search">
+                    <input type="button" value="Search" class="button">
+                </form>
+              </li>
+            </ul>
+          </nav>
+          <nav id="nav">
+          <ul id="nav2">
+            <li><a id="link" href="#">
+              <img class="burger" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAArUlEQVRoQ+2XQQ6AIBDE4OX6cw08YTYlZFPvM0q7CescTZ7Z5BzDg9xmUiMagQis0Xqg7qO16yDf0TdCL/MgENi4tpWRN8ZwUdAL8SIZ+1M0ohGIgKMFgY1rNRKjg4Ku8RDYuLbV0uiPVTwHQHCNlms8ADau9EKM0UFBjUBg41qNxOigoEYgsHGta3yMDgq6xkNg49pWRlzj4zkAgl6IANRSpUZK+ICwRgCopcofBpwPJKrYI6EAAAAASUVORK5CYII=" width="45" height="45">
+              Menu</a>
+              <ul id="drop">
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="karriere.html">Karriere</a></li>
+                <li><a href="Tidligereliv.html">Tidligere liv</a></li>
+                <li><a href="Slutten.html">Slutten</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </nav>
+
+      <h2 id="hboksing">Boksing</h2>
+      <article id="tekst">
+          <section>
+            <p>
+            <img id="boksing" src="tysonboksing.jpg" alt="Mike tyson" />Boksing har sine røtter fra Egyptiske hærer. Soldatene ble opptrent i hånd til hånd kamp, slik at de ville ha en fordel på felten. Vi har også sett tendenser til boksing i antikken samt vikingtiden.
+          </p>
+          </section>
+          <section>
+              <p>
+          Boksing tar plass i en kvadratisk ring som regel på 5x5m. Kampene er i amatørboksing delt opp i 3 minutter, 1 minutt pause og 3 runder. Samme prinsippet er det for proffboksing, bare at rundene er økt, helt opp til 12
+            </p>
+          </section>
+          <section>
+              <p>
+            Tyson sin dårlige oppførsel fikk han bortsendt til «Tryon School for Boys». Hvor han møtte Bob Stewart, en tidligere amatørbokser seierherre. Etter at Bob hadde lært bort alt han kunne, overleverte Bob unge Tyson til managerlegenden «Cus D’Amato». Slik at Mike kunne, i Cus’s egne ord bli «Heavyweight Champion of the World».
+          </p>
+          </section>
+      </article>
+
+      <h3>Mike Tyson all knockouts collection </h3>
+
+      <iframe id="video" src="https://www.youtube.com/embed/sccD0Uvz6Rg" frameborder="0" allowfullscreen>
+      </iframe>
+
+    </main>
+</body>
+
+</html>
