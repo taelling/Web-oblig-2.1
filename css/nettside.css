@@ -66,6 +66,26 @@ aside {
 
     margin-top: 0px;
     border-left: solid;
+<<<<<<< HEAD
+=======
+}
+
+#gmap_canvas img {
+    max-width: none!important;
+    background: none!important
+  }
+
+.map{
+  display:flex;
+  height: 200px;
+  width: 300px;
+  clear: both;
+}
+.kontakt{
+  width: 300px;
+  height:355px;
+  text-align: center;
+>>>>>>> origin/master
 }
 
 form {
