@@ -1,9 +1,21 @@
+body{
+  background-repeat: no-repeat;
+}
+
 main {
     margin-left: auto;
     margin-right: auto;
     width: 960px;
-    height: 100%;;
+    height: 900px;
     border: solid;
+}
+
+#logo{
+  margin-left: 150px;
+}
+
+main,aside{
+  background-color: white;
 }
 
 header {
@@ -66,8 +78,7 @@ aside {
 
     margin-top: 0px;
     border-left: solid;
-<<<<<<< HEAD
-=======
+
 }
 
 #gmap_canvas img {
@@ -85,7 +96,6 @@ aside {
   width: 300px;
   height:355px;
   text-align: center;
->>>>>>> origin/master
 }
 
 form {
@@ -171,6 +181,10 @@ a:hover{
     text-align:left;
     font-size: 1.2em;
   }
+  #logo{
+    float: left;
+    margin-left: 0px;
+  }
   .socialplus{
     display: block;
       position: relative;
@@ -226,6 +240,7 @@ background-color: #585858;
      height: 1120px;
    }
 }
+
 /* boksing */
 #boksing{
   width: 300px;
@@ -236,6 +251,7 @@ background-color: #585858;
 #tekst{
   display: block;
   width: 600px;
+  float: left;
 }
 #hboksing{
   margin-left: 37px;
@@ -249,6 +265,7 @@ section{
   margin-left: 40px;
   margin-bottom: 15px;
   border: 5px solid #999;
+  float: right;
 
 }
 h3{
