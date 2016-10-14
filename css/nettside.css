@@ -2,7 +2,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: 960px;
-    height: 900px;
+    height: 100%;;
     border: solid;
 }
 
@@ -14,7 +14,7 @@ header {
     border-bottom: solid;
 }
 #nav2{
-   visibility:hidden;
+   display:none;
 }
 .social{
   display: flex;
@@ -34,7 +34,7 @@ i {
     margin-right: 20px;
 }
 
-ul li {
+ul li{
     height: 50px;
     width: 150px;
     background-color: gray;
@@ -61,8 +61,11 @@ ul{
 
 aside {
     width: 300px;
-    height: 580px;
+    height: 590px;
     float: right;
+
+    margin-top: 0px;
+    border-left: solid;
 }
 
 form {
@@ -83,6 +86,17 @@ form {
   height:50px;
     background: rgba(50, 50, 50, 0.2);
     border: 0px solid #dbdbdb;
+}
+
+
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: #585858;
+
 }
 @media screen and (max-width: 969px){
   #main{
@@ -132,7 +146,7 @@ form {
     width: 95%;
   }
   #nav2, #nav2 li{
-     visibility:visible;
+     display:block;
     text-align:left;
     font-size: 1.2em;
   }
@@ -190,4 +204,32 @@ background-color: #585858;
    #main{
      height: 1120px;
    }
+}
+/* boksing */
+#boksing{
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin: 10px;
+}
+#tekst{
+  display: block;
+  width: 600px;
+}
+#hboksing{
+  margin-left: 37px;
+}
+section{
+  margin-left: 10px;
+}
+#video{
+  width: 500px;
+  height: 400px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+  border: 5px solid #999;
+
+}
+h3{
+  margin: 40px;
 }
