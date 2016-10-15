@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>
+            Tyson RSSFeed
+        </title>
+        <link>
+            https://www.facebook.com/miketyson/?fref=ts
+        </link>
+        <description>
+            Mike Tyson facebook feed
+        </description>
+        <item>
+            <title>
+                Mike Tyson facebookfeed 0.1
+            </title>
+            <link>
+                https://www.facebook.com/miketyson/photos/a.1438249793112836.1073741828.1436354686635680/1796430957294716/?type=3&theater
+            </link>
+            <description>
+                Mike Tyson facebookpost 14.10.2016 | 08:01
+            </description>
+        </item>
+        <item>
+            <title>
+                Mike Tyson facebookfeed 0.2
+            </title>
+            <link>
+                https://www.facebook.com/miketyson/photos/a.1438249793112836.1073741828.1436354686635680/1796431013961377/?type=3&theater
+            </link>
+            <description>
+                Mike Tyson facebookpost 15.10.2016 | 08:40
+            </description>
+        </item>
+        <item>
+            <title>
+                Mike Tyson facebookfeed 0.3
+            </title>
+            <link>
+                https://www.facebook.com/miketyson/photos/a.1438249793112836.1073741828.1436354686635680/1797483380522807/?type=3&theater
+            </link>
+            <description>
+                Mike Tyson facebookpost 14.10.2016 | 09:40
+            </description>
+        </item>
+
+    </channel>
+</rss>
