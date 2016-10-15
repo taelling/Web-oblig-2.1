@@ -147,12 +147,18 @@ a:hover{
   #main{
     width: 100%;
   }
-#nav1{
-  width: 500px;
-}
-
+  #nav1{
+    width: 500px;
+  }
+  #video{
+    visibility: hidden;
+  }
+  #boksingh{
+    visibility: hidden;
+  }
   .social{
     display:none;
+    visibility: hidden;
   }
   header{
     width: 100%;
@@ -171,7 +177,7 @@ a:hover{
     }
 
 }
-@media screen and (max-width: 710px){
+@media screen and (max-width: 676px){
   .search {
       visibility: hidden;
         }
@@ -180,7 +186,7 @@ a:hover{
   }
 
 }
-@media screen and (max-width: 710px){
+@media screen and (max-width: 676px){
    ul li{
      display: block;
      width: 95%;
@@ -270,6 +276,7 @@ background-color: #585858;
   height: 200px;
   float: left;
   margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #tekst{
   display: block;
@@ -285,11 +292,12 @@ section{
 #video{
   width: 500px;
   height: 400px;
-  margin-left: 40px;
-  margin-bottom: 15px;
-  border: 2px solid #999;
+  margin-right: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   float: right;
-
+}
+#mainboksing{
+  width: 1150px;
 }
 h3{
   margin: 40px;
@@ -299,7 +307,7 @@ h3{
   float: right;
   width: 250px;
   height: 300px;
-  border: 2px solid #999;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .skar{
   margin-left: 20px;
