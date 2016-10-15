@@ -8,28 +8,27 @@
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/nettside.css" media="all" title="no title">
 
-     <!--<mata name="viewport" content="width=device-width, initial-scale=1.0"> -->
-     <script type="text/javascript" >
+    <!--<mata name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <script type="text/javascript">
+        window.onload = knapp;
+        var tall = 0;
 
-         window.onload = knapp;
-         var tall = 0;
-         function knapp() {
-           document.getElementById('link').onclick = menu;
+        function knapp() {
+            document.getElementById('link').onclick = menu;
 
-         }
-             function menu() {
-               if( tall == 0 )
-               {
-                 document.getElementById("drop").style.display = "block";
-                 tall = 1
-               }
-               else{
-                 document.getElementById("drop").style.display = "none";
-                 tall = 0
+        }
 
-               }
-             }
-         </script>
+        function menu() {
+            if (tall == 0) {
+                document.getElementById("drop").style.display = "block";
+                tall = 1
+            } else {
+                document.getElementById("drop").style.display = "none";
+                tall = 0
+
+            }
+        }
+    </script>
 
     <!--<mata name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <script type="text/javascript">
@@ -61,8 +60,8 @@
         <header>
             <img id="logo" src="img/mike2.png" alt="" />
             <div class="social">
-
-              <a href="https://www.facebook.com/miketyson/"  target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                <a href="RSS/feed.xml" target="_blank"><i class="fa fa-rss-square fa-3x" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/miketyson/" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
                 <a href="https://twitter.com/miketyson" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
                 <a href="https://plus.google.com/+MikeTyson" target="_blank"><i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a>
             </div>
@@ -72,10 +71,10 @@
         </header>
         <nav>
             <ul id="nav1">
-                <li><a  class="hl" href="index.html">Hjem</a></li>
+                <li><a class="hl" href="index.html">Hjem</a></li>
                 <li><a class="hl" href="boksing.html">Boksing</a></li>
                 <li><a id="c" class="hl" href="karriere.html">Karriere</a></li>
-                <li><a class="hl"  href="Slutten.html">Slutten</a></li>
+                <li><a class="hl" href="Slutten.html">Slutten</a></li>
                 <li id="sak">
                     <form>
                         <input type="text" placeholder="Search..." required class="search">
@@ -83,7 +82,7 @@
                     </form>
                 </li>
 
-              </ul>
+            </ul>
 
 
 
@@ -112,24 +111,29 @@
             </ul>
         </nav>
 
-      <article id="tekst">
-          <section class="skar">
-            <header id="hkar">
-                <h2>Karriere</h2>
-            </header>
-            <p>
-          Den 6 Mars 1985 gjorde Tyson sin profesjonelle debut i Albany New York imot motstanderen Hector Mercedes. Mike knocket ut Hector i første runde. Med sin uhyrlige styrke, kjappe hender og godt forsvar ble Mike Tyson til Iron Mike.
-          </p>
-          </section>
-          <img id="kmike" src="img/mike15.JPG" alt="" />
-          <section class="skar">
-              <p>
-             Året var et suksessfullt et, men ikke uten tragedie, når Cus D’Amato går bort den 4 November 1985 grunnet pneumonia. Innen 1986 hadde Iron Mike raket in 22 seiere på rad, 21 med knockout. På en alder av 20 år vinner Iron Mike Tyson mot Trevor Berbick og når sitt endelige mål, «heavywight champion of the world». Samt slår han rekorden som den yngste heavyweigth seierherren. Etter mye fram og tilbake med loven, og flere seiere under beltet, tapte Tyson til slutt mot motstanderen «Buster» Douglas. Douglas taper senere mot Holyfield. Dette skaper en stor krig, Tyson tilbake for beltet sitt, med 3 kamper mot Holyfield, ender det hele med at Mike biter i stykker øret til Holyfield, mister bokselisensen og får en bot på 3 million$.
-            </p>
-          </section>
-      </article>
+        <article id="tekst">
+            <section class="skar">
+                <header id="hkar">
+                    <h2>Karriere</h2>
+                </header>
+                <p>
+                    Den 6 Mars 1985 gjorde Tyson sin profesjonelle debut i Albany New York imot motstanderen Hector Mercedes. Mike knocket ut Hector i første runde. Med sin uhyrlige styrke, kjappe hender og godt forsvar ble Mike Tyson til Iron Mike.
+                </p>
+            </section>
+            <img id="kmike" src="img/mike15.JPG" alt="" />
+            <section class="skar">
+                <p>
+                    Året var et suksessfullt et, men ikke uten tragedie, når Cus D’Amato går bort den 4 November 1985 grunnet pneumonia. Innen 1986 hadde Iron Mike raket in 22 seiere på rad, 21 med knockout. På en alder av 20 år vinner Iron Mike Tyson mot Trevor Berbick
+                    og når sitt endelige mål, «heavywight champion of the world». Samt slår han rekorden som den yngste heavyweigth seierherren. Etter mye fram og tilbake med loven, og flere seiere under beltet, tapte Tyson til slutt mot motstanderen
+                    «Buster» Douglas. Douglas taper senere mot Holyfield. Dette skaper en stor krig, Tyson tilbake for beltet sitt, med 3 kamper mot Holyfield, ender det hele med at Mike biter i stykker øret til Holyfield, mister bokselisensen og får
+                    en bot på 3 million$.
+                </p>
+            </section>
+        </article>
 
     </main>
+    <footer> © Mike Tyson </footer>
+
 </body>
 
 </html>

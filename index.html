@@ -8,28 +8,27 @@
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/nettside.css" media="all" title="no title">
 
-     <!--<mata name="viewport" content="width=device-width, initial-scale=1.0"> -->
-     <script type="text/javascript" >
+    <!--<mata name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <script type="text/javascript">
+        window.onload = knapp;
+        var tall = 0;
 
-         window.onload = knapp;
-         var tall = 0;
-         function knapp() {
-           document.getElementById('link').onclick = menu;
+        function knapp() {
+            document.getElementById('link').onclick = menu;
 
-         }
-             function menu() {
-               if( tall == 0 )
-               {
-                 document.getElementById("drop").style.display = "block";
-                 tall = 1
-               }
-               else{
-                 document.getElementById("drop").style.display = "none";
-                 tall = 0
+        }
 
-               }
-             }
-         </script>
+        function menu() {
+            if (tall == 0) {
+                document.getElementById("drop").style.display = "block";
+                tall = 1
+            } else {
+                document.getElementById("drop").style.display = "none";
+                tall = 0
+
+            }
+        }
+    </script>
 
     <!--<mata name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <script type="text/javascript">
@@ -61,8 +60,8 @@
         <header>
             <img id="logo" src="img/mike2.png" alt="" />
             <div class="social">
-
-              <a href="https://www.facebook.com/miketyson/"  target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                <a href="RSS/feed.xml" target="_blank"><i class="fa fa-rss-square fa-3x" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/miketyson/" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
                 <a href="https://twitter.com/miketyson" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
                 <a href="https://plus.google.com/+MikeTyson" target="_blank"><i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a>
 
@@ -76,7 +75,7 @@
                 <li><a id="c" class="hl" href="index.html">Hjem</a></li>
                 <li><a class="hl" href="boksing.html">Boksing</a></li>
                 <li><a class="hl" href="karriere.html">Karriere</a></li>
-                <li><a class="hl"  href="Slutten.html">Slutten</a></li>
+                <li><a class="hl" href="Slutten.html">Slutten</a></li>
                 <li id="sak">
                     <form>
                         <input type="text" placeholder="Search..." required class="search">
@@ -84,7 +83,7 @@
                     </form>
                 </li>
 
-              </ul>
+            </ul>
 
 
 
@@ -108,29 +107,31 @@
             </ul>
         </nav>
 
-      <article id="tekst">
-          <section>
+        <article id="tekst">
+            <section>
 
-            <p>
-            Micheal Gerald Tyson ble født 30 Juni 1966, i Brooklyn New York av Jimmy Kirkpatrick og Lorna Tyson. Når Mike var 2 år gammel forlot faren familien, slik at Lorna satt igjen med ansvaret for Mike og hans to søsken Rodney og Denise. Med dårlig økonomi førte dette til at familien flyttet til Brownsville Brooklyn, et nabolag kjent for mye kriminalitet.
-          </p>
-          </section>
-          <section>
-              <p>
-            Liten og sky var Mike et offer for mobbing, for å kjempe imot bøllene utviklet Mike sin egen stil i «street fighting», som senere førte til kriminalitet og gjengvirksomhet i «Jolly Stompers» i en alder av 11 år.
-            </p>
-          </section>
-          <section>
-              <p>
-            Tyson sin dårlige oppførsel fikk han bortsendt til «Tryon School for Boys». Hvor han møtte Bob Stewart, en tidligere amatørbokser seierherre. Etter at Bob hadde lært bort alt han kunne, overleverte Bob unge Tyson til managerlegenden «Cus D’Amato». Slik at Mike kunne, i Cus’s egne ord bli «Heavyweight Champion of the World».
-          </p>
-          </section>
-      </article>
+                <p>
+                    Micheal Gerald Tyson ble født 30 Juni 1966, i Brooklyn New York av Jimmy Kirkpatrick og Lorna Tyson. Når Mike var 2 år gammel forlot faren familien, slik at Lorna satt igjen med ansvaret for Mike og hans to søsken Rodney og Denise. Med dårlig økonomi
+                    førte dette til at familien flyttet til Brownsville Brooklyn, et nabolag kjent for mye kriminalitet.
+                </p>
+            </section>
+            <section>
+                <p>
+                    Liten og sky var Mike et offer for mobbing, for å kjempe imot bøllene utviklet Mike sin egen stil i «street fighting», som senere førte til kriminalitet og gjengvirksomhet i «Jolly Stompers» i en alder av 11 år.
+                </p>
+            </section>
+            <section>
+                <p>
+                    Tyson sin dårlige oppførsel fikk han bortsendt til «Tryon School for Boys». Hvor han møtte Bob Stewart, en tidligere amatørbokser seierherre. Etter at Bob hadde lært bort alt han kunne, overleverte Bob unge Tyson til managerlegenden «Cus D’Amato». Slik
+                    at Mike kunne, i Cus’s egne ord bli «Heavyweight Champion of the World».
+                </p>
+            </section>
+        </article>
 
 
         <aside>
-          <div class="kontakt">
-            <h1>  Kontakt informasjon</h1>
+            <div class="kontakt">
+                <h1>  Kontakt informasjon</h1>
 
                 <div class="wrapper">
                     <hr>
@@ -160,8 +161,8 @@
 
 
 
-          </div>
-          Adresse
+            </div>
+            Adresse
             <div class="map">
                 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
                 <div style="overflow:hidden;height:200px;width:300px;">
@@ -193,7 +194,7 @@
             </div>
         </aside>
     </main>
-    <footer> © Mike Tyson </footer> 
+    <footer> © Mike Tyson </footer>
 </body>
 
 </html>
