@@ -146,10 +146,13 @@ a:hover{
 @media screen and (max-width: 969px){
   #main{
     width: 100%;
-
   }
+#nav1{
+  width: 500px;
+}
+
   .social{
-    padding-right: 3em;
+    display:none;
   }
   header{
     width: 100%;
