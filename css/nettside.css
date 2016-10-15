@@ -197,7 +197,95 @@ a:hover{
   }
 
 }
+
+
 @media screen and (max-width: 676px){
+  ul li{
+    display: block;
+    width: 95%;
+    margin-top: 1%;
+  }
+ #nav1, aside, .line, .social{
+    display:none;
+ }
+ .menu{
+   display:block;
+   width: 95%;
+ }
+ #nav2, #nav2 li{
+    display:block;
+   text-align:left;
+   font-size: 1.2em;
+ }
+ #logo{
+   float: left;
+   margin-left: 0px;
+ }
+ .socialplus{
+   display: block;
+     position: relative;
+     height: 48px;
+     width: 48px;
+     top: 165px;
+     float: right;
+     padding-right: 1em;
+ }
+ a:link, a:visited{
+   text-decoration: none;
+   color: white;
+ }
+
+a:hover{
+ background-color: #585858;
+}
+
+
+
+#drop {
+   display: none;
+}
+
+a:active + #drop, a:visited + #drop{
+ display:block;
+
+
+}
+
+#drop li:hover{
+background-color: #585858;
+}
+
+
+
+
+#drop{
+ position:relative;
+ z-index: 100;
+}
+
+.burger{
+ display: block;
+
+ float:left;
+ padding-left: 1em;
+ margin-right: 1em;
+ }
+
+ #link{
+   display: block;
+   width: 100%;
+   height: 50px;
+
+
+ }
+  #main{
+    height: 1120px;
+  }
+}
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait){
    ul li{
      display: block;
      width: 95%;
