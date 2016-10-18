@@ -458,3 +458,42 @@ h3{
   background-color: white;
   border-bottom: none;
 }
+@media print{
+    nav{
+      display: none;
+    }
+    div{
+      display: none;
+    }
+    form{
+      display: none;
+    }
+    #tekst{
+      text-align: center;
+      font-size: 25px;
+    }
+    #video{
+      display: none;
+    }
+    #boksingh{
+      display: none;
+    }
+    footer{
+      display: none;
+    }
+    .class{
+      margin-left: 50%;
+    }
+    .social{
+      display: none;
+    }
+    aside{
+      display: none;
+    }
+    main{
+      height: 100%;
+    }
+
+
+
+}
