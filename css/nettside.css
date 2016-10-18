@@ -17,6 +17,19 @@ main {
   width: 1150px;
 }
 
+
+
+
+#kmike,#sluttmike{
+  float: right;
+  width: 250px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#sluttmike{
+  margin-right: 20px;
+}
+
 body{
   background-image: url("../img/mike.png");
 }
@@ -170,6 +183,7 @@ a:hover{
     width: 100%;
   }
 
+
   #mainboksing{
     height: 1200px;
   }
@@ -225,6 +239,10 @@ a:hover{
     width: 95%;
     margin-top: 1%;
   }
+
+  #sluttmike{
+    margin-right: 150px;
+  }
  #nav1, aside, .line, .social{
     display:none;
  }
@@ -245,6 +263,7 @@ a:hover{
    float: left;
    margin-left: 0px;
  }
+
  .socialplus{
    display: none;
      position: relative;
@@ -305,6 +324,7 @@ background-color: #585858;
   #main{
     height: 1120px;
   }
+
 }
 @media only screen
 and (min-device-width : 375px)
@@ -314,6 +334,10 @@ and (orientation : portrait){
      display: block;
      width: 95%;
      margin-top: 1%;
+   }
+
+   #sluttmike{
+     margin-right: 50px;
    }
   #nav1, aside, .line, .social{
      display:none;
@@ -423,12 +447,7 @@ h3{
   margin: 40px;
 }
 /*karriere */
-#kmike{
-  float: right;
-  width: 250px;
-  height: 300px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 .skar{
   margin-left: 20px;
 }
